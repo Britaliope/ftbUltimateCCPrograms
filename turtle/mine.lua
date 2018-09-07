@@ -208,7 +208,7 @@ standStop()
 for w = 1,width do
 	for l = 1,length do
 		--decent phase
-		for i = 0,-inialZ+minZ,-1 do
+		for i = 0,-initialZ+minZ,-1 do
 			assert(digDown() and down(1))
 			if needHome() then standStop() end
 		end
