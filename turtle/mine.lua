@@ -165,7 +165,7 @@ function refuel(n, fn)
 		assert(0 == turtle.getItemCount(16))
 		fn(1)
 		turtle.refuel()
-		print(turtle.getFuelLevel()
+		print(turtle.getFuelLevel())
 	end
 end
 
