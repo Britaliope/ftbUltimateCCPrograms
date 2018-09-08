@@ -160,7 +160,7 @@ function needHome()
 end
 
 function refuel(n, fn)
-    print(turtle.getLevelFuel());
+    print(turtle.getFuelLevel());
 	while turtle.getFuelLevel() < n do
 		turtle.select(16)
 		assert(0 == turtle.getItemCount(16))
@@ -205,7 +205,7 @@ length = 8
 print("Turtle Started.")
 
 standStop()
-
+print("lol");
 for w = 1,width do
 	for l = 1,length do
 		--decent phase
