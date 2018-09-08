@@ -160,6 +160,7 @@ function needHome()
 end
 
 function refuel(n, fn)
+    print(turtle.getLevelFuel());
 	while turtle.getFuelLevel() < n do
 		turtle.select(16)
 		assert(0 == turtle.getItemCount(16))
